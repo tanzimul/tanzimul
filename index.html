@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tanzimul Tanim | Full Stack Developer</title>
-    <meta name="description" content="Portfolio of Tanzimul Tanim, a Full Stack Developer based in Chemnitz, Germany.">
+    <title>Tanzimul | Full Stack Developer</title>
+    <meta name="description" content="Portfolio of Tanzimul, a Full Stack Developer based in Chemnitz, Germany.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -18,6 +18,7 @@
                     },
                     colors: {
                         primary: '#3b82f6', // Blue-500
+                        secondary: '#8b5cf6', // Violet-500
                         dark: '#0f172a',    // Slate-900
                         card: '#1e293b',    // Slate-800
                     }
@@ -57,7 +58,7 @@
         </div>
     </nav>
 
-    <section class="min-h-screen flex items-center justify-center pt-16">
+    <section id="about" class="min-h-screen flex items-center justify-center pt-16">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col-reverse md:flex-row items-center">
             <div class="md:w-1/2 text-center md:text-left mt-10 md:mt-0">
                 <p class="text-primary font-semibold mb-2 tracking-wide uppercase text-sm">Based in Chemnitz, Germany 🇩🇪</p>
@@ -66,20 +67,20 @@
                     <span class="gradient-text">experiences</span> that matter.
                 </h1>
                 <p class="text-gray-400 text-lg mb-8 max-w-lg mx-auto md:mx-0">
-                    I'm Tanzimul Tanim, a Full Stack Developer specializing in robust backends (PHP/Laravel) and interactive frontends (React/JS). Currently building solutions at <span class="text-white font-semibold">BrandDimension</span>.
+                    I'm Tanzimul, a Full Stack Developer specializing in Next.js, React, and PHP/Laravel. Currently building scalable solutions at <span class="text-white font-semibold">BrandDimension</span>.
                 </p>
                 <div class="flex space-x-4 justify-center md:justify-start">
                     <a href="https://github.com/tanzimul" target="_blank" class="flex items-center space-x-2 bg-white text-dark px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition">
                         <i class="fab fa-github"></i> <span>GitHub</span>
                     </a>
-                    <a href="https://www.linkedin.com/in/tanzimultanim/" target="_blank" class="flex items-center space-x-2 border border-white/20 px-6 py-3 rounded-full font-semibold hover:bg-white/10 transition">
+                    <a href="https://www.linkedin.com/in/tanzimul /" target="_blank" class="flex items-center space-x-2 border border-white/20 px-6 py-3 rounded-full font-semibold hover:bg-white/10 transition">
                         <i class="fab fa-linkedin"></i> <span>LinkedIn</span>
                     </a>
                 </div>
             </div>
             <div class="md:w-1/2 flex justify-center relative">
                 <div class="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-tr from-blue-500 to-purple-600 p-1">
-                    <img src="https://github.com/tanzimul.png" alt="Tanzimul Tanim" class="w-full h-full object-cover rounded-full border-4 border-dark">
+                    <img src="https://github.com/tanzimul.png" alt="Tanzimul" class="w-full h-full object-cover rounded-full border-4 border-dark">
                 </div>
                 <div class="absolute bottom-10 -right-4 md:right-10 glass-card p-4 rounded-xl shadow-xl animate-bounce">
                     <div class="flex items-center space-x-3">
@@ -96,20 +97,20 @@
             <h2 class="text-3xl font-bold mb-12 text-center">Tech Stack</h2>
             <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
                 <div class="glass-card p-6 rounded-2xl hover:border-primary/50 transition duration-300">
+                    <i class="fab fa-react text-4xl text-blue-400 mb-4"></i>
+                    <h3 class="font-semibold text-lg">Next.js & React</h3>
+                </div>
+                <div class="glass-card p-6 rounded-2xl hover:border-primary/50 transition duration-300">
                     <i class="fab fa-php text-4xl text-purple-400 mb-4"></i>
                     <h3 class="font-semibold text-lg">PHP & Laravel</h3>
                 </div>
                 <div class="glass-card p-6 rounded-2xl hover:border-primary/50 transition duration-300">
-                    <i class="fab fa-react text-4xl text-blue-400 mb-4"></i>
-                    <h3 class="font-semibold text-lg">React.js</h3>
-                </div>
-                <div class="glass-card p-6 rounded-2xl hover:border-primary/50 transition duration-300">
-                    <i class="fab fa-js text-4xl text-yellow-400 mb-4"></i>
-                    <h3 class="font-semibold text-lg">JavaScript (ES6+)</h3>
+                    <i class="fab fa-aws text-4xl text-orange-400 mb-4"></i>
+                    <h3 class="font-semibold text-lg">AWS & Cloud</h3>
                 </div>
                 <div class="glass-card p-6 rounded-2xl hover:border-primary/50 transition duration-300">
                     <i class="fas fa-database text-4xl text-green-400 mb-4"></i>
-                    <h3 class="font-semibold text-lg">MySQL & SQL</h3>
+                    <h3 class="font-semibold text-lg">MongoDB & SQL</h3>
                 </div>
             </div>
         </div>
@@ -118,49 +119,77 @@
     <section id="projects" class="py-20">
         <div class="max-w-6xl mx-auto px-4">
             <h2 class="text-3xl font-bold mb-12 text-center">Featured Projects</h2>
-            <div class="grid md:grid-cols-3 gap-8">
+            <div class="grid md:grid-cols-2 gap-8">
                 
-                <article class="glass-card rounded-2xl overflow-hidden group">
-                    <div class="p-6">
+                <article class="glass-card rounded-2xl overflow-hidden group hover:-translate-y-2 transition duration-300">
+                    <div class="p-8">
                         <div class="flex justify-between items-start mb-4">
-                            <i class="fas fa-map-marked-alt text-3xl text-primary"></i>
-                            <a href="https://github.com/tanzimul/ChemnitzCultureHub" class="text-gray-400 hover:text-white"><i class="fas fa-external-link-alt"></i></a>
+                            <i class="fas fa-map-marked-alt text-4xl text-primary"></i>
+                            <div class="flex space-x-3">
+                                <a href="https://github.com/tanzimul/ChemnitzCultureHub" class="text-gray-400 hover:text-white" title="View Code"><i class="fab fa-github text-xl"></i></a>
+                            </div>
                         </div>
-                        <h3 class="text-xl font-bold mb-2 group-hover:text-primary transition">Chemnitz Culture Hub</h3>
-                        <p class="text-gray-400 text-sm mb-4">Interactive map application to explore and route cultural landmarks in Chemnitz.</p>
+                        <h3 class="text-2xl font-bold mb-3 group-hover:text-primary transition">Chemnitz Culture Hub</h3>
+                        <p class="text-gray-400 text-sm mb-6 leading-relaxed">Full-stack web app for local cultural event discovery with interactive maps and user authentication.</p>
                         <div class="flex flex-wrap gap-2">
-                            <span class="text-xs bg-blue-500/10 text-blue-400 px-3 py-1 rounded-full">JavaScript</span>
-                            <span class="text-xs bg-blue-500/10 text-blue-400 px-3 py-1 rounded-full">Leaflet API</span>
+                            <span class="text-xs bg-blue-500/10 text-blue-400 px-3 py-1 rounded-full">Next.js</span>
+                            <span class="text-xs bg-green-500/10 text-green-400 px-3 py-1 rounded-full">MongoDB</span>
+                            <span class="text-xs bg-purple-500/10 text-purple-400 px-3 py-1 rounded-full">Tailwind</span>
+                            <span class="text-xs bg-yellow-500/10 text-yellow-400 px-3 py-1 rounded-full">Leaflet.js</span>
                         </div>
                     </div>
                 </article>
 
-                <article class="glass-card rounded-2xl overflow-hidden group">
-                    <div class="p-6">
+                <article class="glass-card rounded-2xl overflow-hidden group hover:-translate-y-2 transition duration-300">
+                    <div class="p-8">
                         <div class="flex justify-between items-start mb-4">
-                            <i class="fas fa-file-pdf text-3xl text-primary"></i>
-                            <a href="https://github.com/tanzimul/laravel-form-pdf-email" class="text-gray-400 hover:text-white"><i class="fas fa-external-link-alt"></i></a>
+                            <i class="fas fa-chart-line text-4xl text-secondary"></i>
+                            <div class="flex space-x-3">
+                                <a href="https://policyinsightsonline.com" class="text-gray-400 hover:text-white" title="Live Site"><i class="fas fa-external-link-alt text-xl"></i></a>
+                            </div>
                         </div>
-                        <h3 class="text-xl font-bold mb-2 group-hover:text-primary transition">Laravel PDF Mailer</h3>
-                        <p class="text-gray-400 text-sm mb-4">Backend utility that generates PDFs from form inputs and automates email delivery.</p>
+                        <h3 class="text-2xl font-bold mb-3 group-hover:text-secondary transition">Policy Insights Bangladesh</h3>
+                        <p class="text-gray-400 text-sm mb-6 leading-relaxed">Corporate website for a policy research institute with CMS integration and performance optimization.</p>
                         <div class="flex flex-wrap gap-2">
-                            <span class="text-xs bg-blue-500/10 text-blue-400 px-3 py-1 rounded-full">Laravel</span>
-                            <span class="text-xs bg-blue-500/10 text-blue-400 px-3 py-1 rounded-full">DomPDF</span>
+                            <span class="text-xs bg-blue-500/10 text-blue-400 px-3 py-1 rounded-full">PHP</span>
+                            <span class="text-xs bg-orange-500/10 text-orange-400 px-3 py-1 rounded-full">AWS EC2</span>
+                            <span class="text-xs bg-gray-500/10 text-gray-400 px-3 py-1 rounded-full">MySQL</span>
                         </div>
                     </div>
                 </article>
 
-                <article class="glass-card rounded-2xl overflow-hidden group">
-                    <div class="p-6">
+                <article class="glass-card rounded-2xl overflow-hidden group hover:-translate-y-2 transition duration-300">
+                    <div class="p-8">
                         <div class="flex justify-between items-start mb-4">
-                            <i class="fas fa-film text-3xl text-primary"></i>
-                            <a href="https://github.com/tanzimul/react-movie-app-omdb-api" class="text-gray-400 hover:text-white"><i class="fas fa-external-link-alt"></i></a>
+                            <i class="fas fa-film text-4xl text-pink-500"></i>
+                            <div class="flex space-x-3">
+                                <a href="https://github.com/tanzimul/react-movie-app-omdb-api" class="text-gray-400 hover:text-white" title="View Code"><i class="fab fa-github text-xl"></i></a>
+                            </div>
                         </div>
-                        <h3 class="text-xl font-bold mb-2 group-hover:text-primary transition">React Movie App</h3>
-                        <p class="text-gray-400 text-sm mb-4">A dynamic movie search engine utilizing the OMDB API for real-time data fetching.</p>
+                        <h3 class="text-2xl font-bold mb-3 group-hover:text-pink-500 transition">React Movie App</h3>
+                        <p class="text-gray-400 text-sm mb-6 leading-relaxed">Movie information platform integrating the OMDb API with modular UI components and dynamic search.</p>
                         <div class="flex flex-wrap gap-2">
-                            <span class="text-xs bg-blue-500/10 text-blue-400 px-3 py-1 rounded-full">React</span>
-                            <span class="text-xs bg-blue-500/10 text-blue-400 px-3 py-1 rounded-full">API</span>
+                            <span class="text-xs bg-blue-500/10 text-blue-400 px-3 py-1 rounded-full">React.js</span>
+                            <span class="text-xs bg-pink-500/10 text-pink-400 px-3 py-1 rounded-full">OMDb API</span>
+                            <span class="text-xs bg-yellow-500/10 text-yellow-400 px-3 py-1 rounded-full">CSS3</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="glass-card rounded-2xl overflow-hidden group hover:-translate-y-2 transition duration-300">
+                    <div class="p-8">
+                        <div class="flex justify-between items-start mb-4">
+                            <i class="fas fa-heartbeat text-4xl text-green-500"></i>
+                            <div class="flex space-x-3">
+                                <a href="https://afrezza.com" class="text-gray-400 hover:text-white" title="Live Site"><i class="fas fa-external-link-alt text-xl"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3 group-hover:text-green-500 transition">Afrezza Insulin</h3>
+                        <p class="text-gray-400 text-sm mb-6 leading-relaxed">Optimized website performance and deployment for a healthcare client’s global online presence.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="text-xs bg-blue-500/10 text-blue-400 px-3 py-1 rounded-full">WordPress</span>
+                            <span class="text-xs bg-orange-500/10 text-orange-400 px-3 py-1 rounded-full">AWS</span>
+                            <span class="text-xs bg-yellow-500/10 text-yellow-400 px-3 py-1 rounded-full">JavaScript</span>
                         </div>
                     </div>
                 </article>
@@ -202,12 +231,11 @@
         <div class="flex justify-center space-x-6 mb-8">
             <a href="mailto:your-email@example.com" class="text-2xl hover:text-primary transition"><i class="fas fa-envelope"></i></a>
             <a href="https://github.com/tanzimul" class="text-2xl hover:text-primary transition"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/tanzimultanim/" class="text-2xl hover:text-primary transition"><i class="fab fa-linkedin"></i></a>
-            <a href="https://twitter.com/tanzimul_tanim" class="text-2xl hover:text-primary transition"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/tanzimul /" class="text-2xl hover:text-primary transition"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/tanzimul_ " class="text-2xl hover:text-primary transition"><i class="fab fa-twitter"></i></a>
         </div>
-        <p class="text-gray-500 text-sm">© 2025 Tanzimul Tanim. Built with Tailwind CSS.</p>
+        <p class="text-gray-500 text-sm">© 2025 Tanzimul. Built with Tailwind CSS.</p>
     </footer>
 
 </body>
 </html>
-```
