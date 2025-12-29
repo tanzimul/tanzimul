@@ -22,4 +22,4 @@ I build interactive web applications and robust backend systems. Currently, I'm 
 
 <br />
 
-[<img src="https://img.shields.io/badge/Check_out_my_Website-github.com/tanzimul.github.io/tanzimul-blue?style=for-the-badge&logo=firefox" />](https://tanzimul.github.io/tanzimul/)
+[<img src="https://img.shields.io/badge/Check_out_my_Website-tanzimul.github.io/tanzimul-blue?style=for-the-badge&logo=firefox" />](https://tanzimul.github.io/tanzimul/)
